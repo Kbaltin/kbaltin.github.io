@@ -1,0 +1,155 @@
+body {
+    background-color: lightgray;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+header {
+    border-bottom: solid black;
+}
+
+#container header nav {
+    padding-top: 65px;
+    
+}
+
+#container header nav ul {
+    padding-left: 0;
+    width: 550px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+li {
+    margin-right: 50px;
+    /*margin-left: 50;*/ 
+    border: solid black;
+} 
+
+#container header nav ul li {  
+    border-width: 1px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 1px;
+    line-height: 32px;
+    border-style: outset;
+}
+
+#container header nav ul li a {
+    font-family: Arial;
+    line-height: 32px;
+    padding: 8px;
+    display: inline-block;
+    height: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:darkblue;
+    text-decoration: none
+}
+
+header {
+    height: 200px;
+    background-color: gray;
+}
+
+#profilepicture {
+    /*margin-left: 0px 0px 0px 30px;*/
+    height: 277px;
+    width: 208px;
+    margin-bottom: 0px;
+}
+
+
+main {
+    background-color: lightgray;
+    padding: 20px;
+    vertical-align: middle;
+    
+}
+
+#clearbox {
+    /*float: center;*/
+    width: 500px;
+    height: 300px;
+    background-color: gray;
+    border: 1px solid black;
+    padding: 20px;
+    margin: auto;
+}   
+
+#clearboxabout {
+    width: 500px;
+    height: 550px;
+    background-color: gray;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 5px;
+    margin: auto;
+}
+
+#gallerybox {
+    width: 600px;
+    height: 550px;
+    background-color: gray;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 5px;
+    margin: auto;
+}
+
+#gallerybox h1 { 
+    text-align: center;
+}
+
+#gallerybox p {
+    text-align: center;
+}
+
+
+.column {
+    float: left;
+    width: 31.00%;
+    padding: 5px;
+  }
+  
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#home p, #home h1 {
+    color: darkblue;
+}
+
+#home p {
+    font-size: 18px;
+}
+
+
+footer {
+        margin-top: 20px;
+        width: 700px;
+        color: darkblue;
+        height: 100px;
+        background-color: grey;
+        padding-top: 0px;
+        border-top: solid black;
+        
+}
+
+footer p {
+    text-align: left;
+    padding-top: 1px;
+    
+}
+
